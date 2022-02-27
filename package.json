@@ -1,5 +1,5 @@
 {
-  "name": "Nekohime",
+  "name": "CptKareno bot",
   "version": "4.5",
   "description": "Have Fun :)",
   "depecrated": false,
@@ -19,7 +19,7 @@
   ],
   "homepage": "Bersenang-senanglah :)",
   "author": {
-    "name": "Galang Purnama"
+    "name": "CptKareno"
   },
   "repository": {
     "type": "git",
