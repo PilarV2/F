@@ -9,7 +9,7 @@ let handler = async (m, {usedPrefix}) => {
   
     const buttonMessage = {
       contentText: content,
-      footerText: `© Nekohime`,
+      footerText: `© ZeusBotz`,
       buttons: buttons,
       headerType: 1,
     };
