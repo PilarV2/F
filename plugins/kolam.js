@@ -36,7 +36,7 @@ let zer =`
 
   const buttonMessage = {
     contentText: zer,
-    footerText: '© Nekohime',
+    footerText: '© ZeusBotz',
     buttons: buttons,
     headerType: 1,
   };
