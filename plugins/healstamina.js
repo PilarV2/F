@@ -10,9 +10,9 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) =>  {
                         if (global.DATABASE._data.users[m.sender].staminaheal >= count * 1) {
                             global.DATABASE._data.users[m.sender].staminaheal -= count * 1
                             global.DATABASE._data.users[m.sender].stamina += staminatambah * count
-                            conn.send2Button(m.chat, `Sukses Menggunakan ${count} Stamina Heal 💉\n\nDan Mendapatkan ${staminatambah * 1} Stamina 💊`, '© Nekohime', '☰ INV', '.inv', '☰ MENU', '.menu', m)
-                    } else conn.sendButton(m.chat, `_*Sepertinya Anda Kekurangan Stamina Heal 💉, Beli Dulu Dishop*_`, '© Nekohime', 'Beli stamina heal', '.beli stamina-heal', m)
-                } else conn.sendButton(m.chat, 'Sepertinya Udah Penuh Stamina 💊 Mu, Coba Kamu Cek Inv Kamu', '© Nekohime', '☰ INV', '.inv', m)
+                            conn.send2Button(m.chat, `Sukses Menggunakan ${count} Stamina Heal 💉\n\nDan Mendapatkan ${staminatambah * 1} Stamina 💊`, '© ZeusBotz', '☰ INV', '.inv', '☰ MENU', '.menu', m)
+                    } else conn.sendButton(m.chat, `_*Sepertinya Anda Kekurangan Stamina Heal 💉, Beli Dulu Dishop*_`, '© ZeusBotz', 'Beli stamina heal', '.beli stamina-heal', m)
+                } else conn.sendButton(m.chat, 'Sepertinya Udah Penuh Stamina 💊 Mu, Coba Kamu Cek Inv Kamu', '© ZeusBotz', '☰ INV', '.inv', m)
                 } else if (args.length > 2 && args[0] === !'heal-stamina') m.reply(pickRandom(['Hanya bisa menggunakan potion', 'Mau ngunain apa? Cuma bisa gunain potion :v', 'Wih mau gunain apa kamu, kan hanya bisa potion', 'Waduheck, hanya bisa potion', 'lah, mau gunain apa?, kan hanya bisa potion']) + '\nContoh penggunaan: *' + usedPrefix + 'potion 1*')
             } catch (e) {
                 console.log(e)
@@ -31,9 +31,9 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) =>  {
                     if (global.DATABASE._data.users[m.sender].staminaheal >= count * 1) {
                         global.DATABASE._data.users[m.sender].staminaheal -= count * 1
                         global.DATABASE._data.users[m.sender].stamina += staminatambah * count
-                        conn.send2Button(m.chat, `Sukses Menggunakan ${count * 1} Stamina Heal 💉\nDan Mendapatkan ${staminatambah * 1} Stamina 💊`, '© Nekohime', '☰ INV', '.inv', '☰ MENU', '.menu', m)
-                    } else conn.sendButton(m.chat, `_*Sepertinya Anda Kekurangan Stamina Heal 💉, Beli Dulu Dishop*_`, '© Nekohime', 'Beli stamina heal', '.beli stamina-heal', m)
-                } else conn.sendButton(m.chat, 'Sepertinya Udah Penuh Stamina 💊 Mu, Coba Kamu Cek Inv Kamu', '© Nekohime', '☰ INV', '.inv', m)
+                        conn.send2Button(m.chat, `Sukses Menggunakan ${count * 1} Stamina Heal 💉\nDan Mendapatkan ${staminatambah * 1} Stamina 💊`, '© ZeusBotz', '☰ INV', '.inv', '☰ MENU', '.menu', m)
+                    } else conn.sendButton(m.chat, `_*Sepertinya Anda Kekurangan Stamina Heal 💉, Beli Dulu Dishop*_`, '© ZeusBotz', 'Beli stamina heal', '.beli stamina-heal', m)
+                } else conn.sendButton(m.chat, 'Sepertinya Udah Penuh Stamina 💊 Mu, Coba Kamu Cek Inv Kamu', '© ZeusBotz', '☰ INV', '.inv', m)
             } catch (e) {
                 console.log(e)
                 m.reply('_*ERROR*_')
