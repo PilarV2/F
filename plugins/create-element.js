@@ -37,7 +37,7 @@ Contoh: ${usedPrefix + command} tanah
                                     setTimeout(() => {
                                     m.reply(`Sedang Bertapa Di Gunung ${pickRandom(['Arjuno', 'Bromo', 'Semeru', 'Merapi', 'Selamet', 'Salak', 'Pangrango', 'Gede', 'Rinjani'])} Untuk Mendapatkan Elemen Tanah.`)
                                     }, 0) 
-                            } else conn.sendButton(m.chat, `Minimal ${levelminimal} Level 🧬 baru bisa membuat elemen`, '© Nekohime', '☰ INV', '.inv', m)
+                            } else conn.sendButton(m.chat, `Minimal ${levelminimal} Level 🧬 baru bisa membuat elemen`, '© ZeusBotz', '☰ INV', '.inv', m)
                         break
                 case 'angin':
                     if (elemenku.elementcreated == true) return m.reply('Elemen telah dibuat')
@@ -51,7 +51,7 @@ Contoh: ${usedPrefix + command} tanah
                                     setTimeout(() => {
                                     m.reply(`Sedang Bertapa Di Gunung ${pickRandom(['Arjuno', 'Bromo', 'Semeru', 'Merapi', 'Selamet', 'Salak', 'Pangrango', 'Gede', 'Rinjani'])} Untuk Mendapatkan Elemen Angin.`)
                                     }, 0) 
-                            } else conn.sendButton(m.chat, `Minimal ${levelminimal} Level 🧬 baru bisa membuat elemen`, '© Nekohime', '☰ INV', '.inv', m)
+                            } else conn.sendButton(m.chat, `Minimal ${levelminimal} Level 🧬 baru bisa membuat elemen`, '© ZeusBotz', '☰ INV', '.inv', m)
                         break
                 case 'petir':
                     if (elemenku.elementcreated == true) return m.reply('Elemen telah dibuat')
@@ -65,7 +65,7 @@ Contoh: ${usedPrefix + command} tanah
                                     setTimeout(() => {
                                     m.reply(`Sedang Bertapa Di Gunung ${pickRandom(['Arjuno', 'Bromo', 'Semeru', 'Merapi', 'Selamet', 'Salak', 'Pangrango', 'Gede', 'Rinjani'])} Untuk Mendapatkan Elemen Petir.`)
                                     }, 0) 
-                            } else conn.sendButton(m.chat, `Minimal ${levelminimal} Level 🧬 baru bisa membuat elemen`, '© Nekohime', '☰ INV', '.inv', m)
+                            } else conn.sendButton(m.chat, `Minimal ${levelminimal} Level 🧬 baru bisa membuat elemen`, '© ZeusBotz', '☰ INV', '.inv', m)
                         break
                 case 'air':
                     if (elemenku.elementcreated == true) return m.reply('Elemen telah dibuat')
@@ -93,7 +93,7 @@ Contoh: ${usedPrefix + command} tanah
                                     setTimeout(() => {
                                     m.reply(`Sedang Bertapa Di Gunung ${pickRandom(['Arjuno', 'Bromo', 'Semeru', 'Merapi', 'Selamet', 'Salak', 'Pangrango', 'Gede', 'Rinjani'])} Untuk Mendapatkan Elemen Es.`)
                                     }, 0) 
-                            } else conn.sendButton(m.chat, `Minimal ${levelminimal} Level 🧬 baru bisa membuat elemen`, '© Nekohime', '☰ INV', '.inv', m)
+                            } else conn.sendButton(m.chat, `Minimal ${levelminimal} Level 🧬 baru bisa membuat elemen`, '© ZeusBotz', '☰ INV', '.inv', m)
                         break
                 case 'api':
                     if (elemenku.elementcreated == true) return m.reply('Elemen telah dibuat')
@@ -107,7 +107,7 @@ Contoh: ${usedPrefix + command} tanah
                                     setTimeout(() => {
                                     m.reply(`Sedang Bertapa Di Gunung ${pickRandom(['Arjuno', 'Bromo', 'Semeru', 'Merapi', 'Selamet', 'Salak', 'Pangrango', 'Gede', 'Rinjani'])} Untuk Mendapatkan Elemen Api.`)
                                     }, 0) 
-                            } else conn.sendButton(m.chat, `Minimal ${levelminimal} Level 🧬 baru bisa membuat elemen`, '© Nekohime', '☰ INV', '.inv', m)
+                            } else conn.sendButton(m.chat, `Minimal ${levelminimal} Level 🧬 baru bisa membuat elemen`, '© ZeusBotz', '☰ INV', '.inv', m)
                         break
                 default:
                     return conn.reply(m.chat, Kchat, m)
