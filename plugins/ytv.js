@@ -12,7 +12,7 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
 *Judul:* ${title}
 *Ukuran:* ${filesizeF}\n
 NOTE: *Mohon Sabar Ada Beberapa File Yg Akan Di Upload*
-`.trim(), '© Nekohime', '☰ MENU', `.menu`, m)
+`.trim(), '© ZeusBotz', '☰ MENU', `.menu`, m)
   let _thumb = {}
   try { _thumb = { thumbnail: await (await fetch(thumb)).buffer() } }
   catch (e) { }
