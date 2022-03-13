@@ -20,7 +20,7 @@ let handler = async (m, { conn }) => {
     let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
     let mentionedJid = [who]
     if (global.DATABASE.data.users[m.sender].eventregist == 1) return conn.reply(m.chat, 'Anda Telah Meregist.', m)
-      conn.sendButton(m.chat, `_*Selamat @${who.replace(/@.+/, '')} Anda Telah Meregist Untuk Event Tanggal 7 Febuari 🎉*_`, '© Nekohime', '☰ MENU', '.menu', ftrol, {contextInfo: { mentionedJid }});
+      conn.sendButton(m.chat, `_*Selamat @${who.replace(/@.+/, '')} Anda Telah Meregist Untuk Event Tanggal 7 Febuari 🎉*_`, '© ZeusBotz', '☰ MENU', '.menu', ftrol, {contextInfo: { mentionedJid }});
       global.DATABASE._data.users[m.sender].eventregist += 1;
   };
   handler.help = ['registevent'];
