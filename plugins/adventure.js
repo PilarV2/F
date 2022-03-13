@@ -56,7 +56,7 @@ Nyawa mu berkurang -${healt * 1} karena Kamu telah berpetualang sampai ${pickRan
             global.DATABASE._data.users[m.sender].uncommon += uncommon * 1
             global.DATABASE._data.users[m.sender].sampah += sampah * 1
             global.DATABASE._data.users[m.sender].lastadventure = new Date * 1
-            } else conn.send2Button(m.chat, `Anda sudah berpetualang dan kelelahan, silahkan coba *${timers}* lagi`, '© Nekohime', '☰ INV', '.inv', '☰ MENU', '.menu', m)
+            } else conn.send2Button(m.chat, `Anda sudah berpetualang dan kelelahan, silahkan coba *${timers}* lagi`, '© ZeusBotz', '☰ INV', '.inv', '☰ MENU', '.menu', m)
         } else conn.send2Button(m.chat, 'Minimal 80 health untuk bisa berpetualang, beli nyawa ❤ dulu dengan ketik *' + usedPrefix + 'shop buy potion 🧪 <jumlah>*\ndan ketik *' + usedPrefix + 'use potion <jumlah>*\n\n_Untuk mendapat money dan potion gratis ketik_ *' + usedPrefix + 'claim*', '© Nekohime', 'Tambah Nyawa', '.heal', 'Menu', '.menu', m)
     } catch (e) {
         console.log(e)
