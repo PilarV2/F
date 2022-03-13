@@ -11,7 +11,7 @@ let handler = async (m, { conn }) => {
         global.DATABASE._data.users[m.sender].petasan += 5;
         global.DATABASE._data.users[m.sender].claim_event += true;
       } else {
-        conn.sendButton(m.chat, 'Anda Telah Mengclaim Event Ini.', '© Nekohime','☰ INV', '.inv')
+        conn.sendButton(m.chat, 'Anda Telah Mengclaim Event Ini.', '© ZeusBotz','☰ INV', '.inv')
       }
       };
     handler.help = ['claimevent'];
