@@ -7,7 +7,7 @@ let handler  = async (m, { conn, text, args }) => {
     try {
      let img = await res.buffer()
      let caption = `
-© *Nekohime*
+© *ZeusBotz*
 `.trim()
     conn.sendFile(m.chat, img, '.jpg', caption, m)
    } catch (e) {
