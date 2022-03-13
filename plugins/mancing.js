@@ -89,8 +89,8 @@ setTimeout(() => {
                      m.reply('_Sedang Memancing..._')
                      }, 0) 
   user.lastfishing = new Date * 1
-    } else conn.sendButton(m.chat, `*Sepertinya Anda Sudah Kecapekan*\n*Silahkan Istirahat Dulu sekitar ${timers}*\n*Untuk bisa melanjutkan Memancing*`, '© Nekohime', 'Kolam', '.kolam', m)
-} else conn.sendButton(m.chat, `_*Beli Dulu Bro Kailnya*_`, '© Nekohime', 'Beli Kail', '.beli kail', m)
+    } else conn.sendButton(m.chat, `*Sepertinya Anda Sudah Kecapekan*\n*Silahkan Istirahat Dulu sekitar ${timers}*\n*Untuk bisa melanjutkan Memancing*`, '© ZeusBotz', 'Kolam', '.kolam', m)
+} else conn.sendButton(m.chat, `_*Beli Dulu Bro Kailnya*_`, '© ZeusBotz', 'Beli Kail', '.beli kail', m)
 }
 handler.help = ['mancing', 'fishing']
 handler.tags = ['rpg']
