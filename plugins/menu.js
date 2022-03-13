@@ -94,7 +94,6 @@ const defaultMenu = {
 ┌─❖「 *INFO BOT* 」
 │ Nama Bot: *%me*
 │ Versi: %version
-│ 
 │ Pengguna: %totalreg
 │ Grup: *${groups.length}*
 │ Telah Daftar: %rtotalreg
