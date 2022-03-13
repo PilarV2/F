@@ -32,7 +32,7 @@ let handler = async (m, { conn, usedPrefix }) => {
   let txt = `🔮 Element Kamu ${elemenku}
   Level Elemen: ${elemenlevel}
   Kekuatan Elemen: ${elemenpower}`;
-  conn.send2Button(m.chat, txt, '© Nekohime', '☰ MENU', '/menu', '☰ INV', '.inv', ftrol)
+  conn.send2Button(m.chat, txt, '© ZeusBotz', '☰ MENU', '/menu', '☰ INV', '.inv', ftrol)
 };
 handler.help = ['myelement', 'element'];
 handler.tags = ['rpg'];
