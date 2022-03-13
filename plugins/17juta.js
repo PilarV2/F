@@ -55,7 +55,7 @@ let handler = async (m, {usedPrefix}) => {
   
     const buttonMessage = {
       contentText: txt,
-      footerText: '© Nekohime',
+      footerText: '© ZeusBotz',
       buttons: buttons,
       headerType: 1,
     };
