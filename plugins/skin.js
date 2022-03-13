@@ -47,8 +47,8 @@ let handler = async (m, { conn, usedPrefix }) => {
     participant : '0@s.whatsapp.net'},
     message: { 
                   "videoMessage": { 
-                  "title": `*NEKOHIME SAN NYAA*`,
-                  "h": `Nekohime`,
+                  "title": `*ZeusBotz*`,
+                  "h": `ZeusBotz`,
                   'duration': '99999', 
                   'gifPlayback': 'true', 
                   'caption': `${ucapanWaktu}`,
@@ -74,7 +74,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 
   const buttonMessage = {
     contentText: txt,
-    footerText: '© Nekohime',
+    footerText: '© ZeusBotz',
     buttons: buttons,
     headerType: 1,
   };
