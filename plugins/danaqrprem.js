@@ -9,7 +9,7 @@ let handler  = async (m, { conn, text }) => {
   if (!json.url) throw 'Error!'
     await conn.send2ButtonImg(m.chat, await (await fetch(json.url)).buffer(), `
 Silahkan discan lalu masukan nominal harga yg sudah dipilih yah
-`.trim(), '© Nekohime', '⬅️ Back', '.hargaprem', '📮 Klik Disini Jika Sudah Bayar', '.buktiprem')
+`.trim(), '© ZeusBotz', '⬅️ Back', '.hargaprem', '📮 Klik Disini Jika Sudah Bayar', '.buktiprem')
    } catch (e) {
         console.log(e)
         throw '*Internal Servel Error*'
