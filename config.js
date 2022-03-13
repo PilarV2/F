@@ -1,26 +1,26 @@
 global.DeveloperMode = 'false' //true Or false
-global.linkGC = ['https://chat.whatsapp.com/E7AAoUMODez9pAsyIws2ig']
-global.web = ['https://nekohime-bot.github.io']
-global.pemilikasli = ['https://wa.me/+6281319859673']
-global.nomortopup = ['081319859673']
-global.ban = ['*⛔ Anda Telah Diban*']
+global.linkGC = ['']
+global.web = ['https://']
+global.pemilikasli = ['https://wa.me/+6289625556161']
+global.nomortopup = ['089625556161']
+global.ban = ['*Anda Telah Diban*']
 global.qris = ['']
-global.wm = ['© Nekohime']
+global.wm = ['© ZeusBotz']
 global.Owner = {
   // use the phone number with the country code, for example Indonesia '62' America '1' etc
-  '6281319859673': { // put your number here
-    name: 'Galang Purnama',
+  '6289625556161': { // put your number here
+    name: 'Pilar Xcode',
     isDev: true, // if true this number will send if bot have bug and developer mode true
     isReport: true, // if true this number will send if user use command /report or /join
     isCreator: true // if true this number will send if user use command /owner or /creator
   },
-  '6281319859673': { // put your number here
-    name: 'Galang Purnama',
+  '6289625556161': { // put your number here
+    name: 'Pilar Xcode',
     isDev: false, // if true this number will send if bot have bug and developer mode true
     isReport: true, // if true this number will send if user use command /report or /join
     isCreator: false // if true this number will send if user use command /owner or /creator
   },
-  '6281319859673': {
+  '6289625556161': {
     name: 'Owner',
     isReport: true, // if true this number will send if user use command /report or /join
   },
@@ -65,11 +65,11 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = '❤️ NEKOHIME - BOT ❤️'
+global.packname = 'Zeus-Botz By Lort Pilar🗿'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text='
 
-global.multiplier = 89 // Semakin Tinggi Level Semakin Juga Naiknya
+global.multiplier = 999 // Semakin Tinggi Level Semakin Juga Naiknya
 
 let fs = require('fs')
 let chalk = require('chalk')
