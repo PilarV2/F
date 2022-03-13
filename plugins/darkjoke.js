@@ -6,7 +6,7 @@ let handler  = async (m, { conn, text }) => {
      let res = await fetch('https://api.xteam.xyz/asupan/darkjoke?APIKEY=ea385908272d52b4')
      let img = await res.buffer()
      let caption = `
-© *Nekohime*
+© *ZeusBotz*
 `.trim()
     conn.sendFile(m.chat, img, 'darkjoke.png', caption, m)
    } catch (e) {
