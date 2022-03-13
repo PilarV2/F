@@ -84,8 +84,8 @@ Contoh: ${usedPrefix + command} ojek
                                     setTimeout(() => {
                                     m.reply('_Mencari Pelanggan_')
                                     }, 0) 
-                            } else conn.sendButton(m.chat, `Minimal ${staminaojek} Stamina 💊 baru bisa kerja jadi ojek`, '© Nekohime', 'Tambah Stamina', '.staminaheal', m)
-                        } else conn.sendButton(m.chat, `Sepertinya Anda Kelelahan, Istirahat Selama: *${timers}*`, '© Nekohime', '☰ INV', '.inv', m)
+                            } else conn.sendButton(m.chat, `Minimal ${staminaojek} Stamina 💊 baru bisa kerja jadi ojek`, '© ZeusBotz', 'Tambah Stamina', '.staminaheal', m)
+                        } else conn.sendButton(m.chat, `Sepertinya Anda Kelelahan, Istirahat Selama: *${timers}*`, '© ZeusBotz', '☰ INV', '.inv', m)
                         break
                 case 'pilot':
                     if (new Date - global.DATABASE._data.users[m.sender].lastkerjapilot > 1200000) {
@@ -103,8 +103,8 @@ Contoh: ${usedPrefix + command} ojek
                                     setTimeout(() => {
                                     m.reply('Bersiap Lepas Landas.')
                                     }, 0) 
-                            } else conn.sendButton(m.chat, `Minimal ${staminapilot} Stamina 💊 baru bisa kerja jadi pilot`, '© Nekohime', 'Tambah Stamina', '.staminaheal', m)
-                        } else conn.sendButton(m.chat, `Sepertinya Anda Kelelahan, Istirahat Selama: *${timers4}*`, '© Nekohime', '☰ INV', '.inv', m)
+                            } else conn.sendButton(m.chat, `Minimal ${staminapilot} Stamina 💊 baru bisa kerja jadi pilot`, '© ZeusBotz', 'Tambah Stamina', '.staminaheal', m)
+                        } else conn.sendButton(m.chat, `Sepertinya Anda Kelelahan, Istirahat Selama: *${timers4}*`, '© ZeusBotz', '☰ INV', '.inv', m)
                         break
                 case 'kuli':
                     if (new Date - global.DATABASE._data.users[m.sender].lastkerjakuli > 7200000) {
@@ -121,8 +121,8 @@ Contoh: ${usedPrefix + command} ojek
                                     setTimeout(() => {
                                     m.reply('Membuat Bangunan.')
                                     }, 0) 
-                            } else conn.sendButton(m.chat, `Minimal ${staminakuli} Stamina 💊 baru bisa kerja jadi kuli`, '© Nekohime', 'Tambah Stamina', '.staminaheal', m)
-                        } else conn.sendButton(m.chat, `Sepertinya Anda Kelelahan, Istirahat Selama: *${timers2}*`, '© Nekohime', '☰ INV', '.inv', m)
+                            } else conn.sendButton(m.chat, `Minimal ${staminakuli} Stamina 💊 baru bisa kerja jadi kuli`, '© ZeusBotz', 'Tambah Stamina', '.staminaheal', m)
+                        } else conn.sendButton(m.chat, `Sepertinya Anda Kelelahan, Istirahat Selama: *${timers2}*`, '© ZeusBotz', '☰ INV', '.inv', m)
                         break
                 case 'ojol':
                     if (new Date - global.DATABASE._data.users[m.sender].lastkerjaojol > 1800000) {
@@ -143,8 +143,8 @@ Contoh: ${usedPrefix + command} ojek
                                     setTimeout(() => {
                                     m.reply('_Menunggu Orderan_')
                                     }, 0) 
-                            } else conn.sendButton(m.chat, `Minimal ${staminaojol} Stamina 💊 baru bisa kerja jadi ojol`, '© Nekohime', 'Tambah Stamina', '.staminaheal', m)
-                        } else conn.sendButton(m.chat, `Sepertinya Anda Kelelahan, Istirahat Selama: *${timers1}*`, '© Nekohime', '☰ INV', '.inv', m)
+                            } else conn.sendButton(m.chat, `Minimal ${staminaojol} Stamina 💊 baru bisa kerja jadi ojol`, '© ZeusBotz', 'Tambah Stamina', '.staminaheal', m)
+                        } else conn.sendButton(m.chat, `Sepertinya Anda Kelelahan, Istirahat Selama: *${timers1}*`, '© ZeusBotz', '☰ INV', '.inv', m)
                         break
                 case 'montir':
                     if (new Date - global.DATABASE._data.users[m.sender].lastkerjamontir > 1800000) {
@@ -161,8 +161,8 @@ Contoh: ${usedPrefix + command} ojek
                                     setTimeout(() => {
                                     m.reply('Sedang Memperbaiki.')
                                     }, 0) 
-                            } else conn.sendButton(m.chat, `Minimal ${staminaojol} Stamina 💊 baru bisa kerja jadi montir`, '© Nekohime', 'Tambah Stamina', '.staminaheal', m)
-                        } else conn.sendButton(m.chat, `Sepertinya Anda Kelelahan, Istirahat Selama: *${timers3}*`, '© Nekohime', '☰ INV', '.inv', m)
+                            } else conn.sendButton(m.chat, `Minimal ${staminaojol} Stamina 💊 baru bisa kerja jadi montir`, '© ZeusBotz', 'Tambah Stamina', '.staminaheal', m)
+                        } else conn.sendButton(m.chat, `Sepertinya Anda Kelelahan, Istirahat Selama: *${timers3}*`, '© ZeusBotz', '☰ INV', '.inv', m)
                         break
                 default:
                     return conn.reply(m.chat, Kchat, m)
