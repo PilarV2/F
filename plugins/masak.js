@@ -31,7 +31,7 @@ List Masakan
                                 setTimeout(() => {
                                     m.reply('_Sedang Memasak_')
                                     }, 0) 
-                            } else conn.sendButton(m.chat, `Anda kekurangan ${telur * count} 🥚 Telur.`, '© Nekohime', 'Beli Telur', '.beli telur', m)
+                            } else conn.sendButton(m.chat, `Anda kekurangan ${telur * count} 🥚 Telur.`, '© ZeusBotz', 'Beli Telur', '.beli telur', m)
                         
                         break
                 case 'hamburger':
@@ -49,9 +49,9 @@ List Masakan
                                 setTimeout(() => {
                                     m.reply('_Sedang Memasak_')
                                     }, 0) 
-                            } else conn.sendButton(m.chat, `Sepertinya Anda kekurangan ${roti * count} 🍞 Roti.`, '© Nekohime', 'Beli Roti', '.beli roti', m)
-                        } else conn.sendButton(m.chat, `Sepertinya Anda kekurangan ${selada * count} 🥬 Selada.`, '© Nekohime', 'Beli Selada', '.beli selada', m)
-                    } else conn.sendButton(m.chat, `Sepertinya Anda kekurangan ${keju * count}  Keju.`, '© Nekohime', 'Beli Keju', '.beli keju', m)
+                            } else conn.sendButton(m.chat, `Sepertinya Anda kekurangan ${roti * count} 🍞 Roti.`, '© ZeusBotz', 'Beli Roti', '.beli roti', m)
+                        } else conn.sendButton(m.chat, `Sepertinya Anda kekurangan ${selada * count} 🥬 Selada.`, '© ZeusBotz', 'Beli Selada', '.beli selada', m)
+                    } else conn.sendButton(m.chat, `Sepertinya Anda kekurangan ${keju * count}  Keju.`, '© ZeusBotz', 'Beli Keju', '.beli keju', m)
                         break
                 default:
                     return conn.reply(m.chat, Kchat, m)
