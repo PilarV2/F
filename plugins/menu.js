@@ -138,7 +138,7 @@ ${'```%npmdesc```'}
 `,
 };
   try {
-    await conn.fakeReply(m.chat, '*[❗] 𝗟 𝗢 𝗔 𝗗 𝗜 𝗡 𝗚．．．*', '0@s.whatsapp.net', `*NEKOHIME SAN NYAA*`, 'status@broadcast', {contextInfo: { mentionedJid }})
+    await conn.fakeReply(m.chat, '*[❗] 𝗟 𝗢 𝗔 𝗗 𝗜 𝗡 𝗚．．．*', '0@s.whatsapp.net', `*ZEUSBOTZ*`, 'status@broadcast', {contextInfo: { mentionedJid }})
     let package = JSON.parse(await fs.promises.readFile(path.join(__dirname, '../package.json')).catch((_) => '{}'));
     let { exp, limit, level, role } = global.DATABASE.data.users[m.sender];
     let name = conn.getName(m.sender);
@@ -254,7 +254,7 @@ ${'```%npmdesc```'}
     };
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name]);
     let pp = await conn.getProfilePicture(conn.user.jid).catch((_) => path.join(__dirname, '../src/avatar_contact.png'));
-    conn.send2ButtonImg(m.chat, await (await fetch(pp)).buffer(), text, '© Nekohime', '☰ INFO', '/info', '👤 OWNER', '.owner', m)
+    conn.send2ButtonImg(m.chat, await (await fetch(pp)).buffer(), text, '© ZeusBotz', '☰ INFO', '/info', '👤 OWNER', '.owner', m)
   } catch (e) {
     console.log(e)
     throw '_*MOHON MAAF SEDANG ERROR*_'
