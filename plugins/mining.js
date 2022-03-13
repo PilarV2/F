@@ -46,8 +46,8 @@ setTimeout(() => {
                      m.reply('_Sedang Mencari Goa..._')
                      }, 0) 
   user.lastmining = new Date * 1
-    } else conn.sendButton(m.chat, `Istirahat Dulu Bro Baru Bisa Mining Lagi.\nIstirahat Selama: _*${timers}*_`, '© Nekohime', 'Hasil Mining', '.peti', m)
-} else conn.sendButton(m.chat, `_*Beli Dulu Bro Pickaxenya*_`, '© Nekohime', 'Beli Pickaxe', '.beli pickaxe', m)
+    } else conn.sendButton(m.chat, `Istirahat Dulu Bro Baru Bisa Mining Lagi.\nIstirahat Selama: _*${timers}*_`, '© ZeusBotz', 'Hasil Mining', '.peti', m)
+} else conn.sendButton(m.chat, `_*Beli Dulu Bro Pickaxenya*_`, '© ZeusBotz', 'Beli Pickaxe', '.beli pickaxe', m)
 }
 handler.help = ['mining', 'nambang']
 handler.tags = ['rpg']
