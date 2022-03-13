@@ -84,7 +84,7 @@ setTimeout(() => {
                      m.reply('_Sedang Berburu..._')
                      }, 0) 
   user.lastberburu = new Date * 1
-    } else conn.sendButton(m.chat, `*Sepertinya Anda Sudah Kecapekan*\n*Silahkan Istirahat Dulu sekitar ${timers}*\n*Untuk bisa melanjutkan Berburu*`, '© Nekohime', 'Kandang', '.kandang')
+    } else conn.sendButton(m.chat, `*Sepertinya Anda Sudah Kecapekan*\n*Silahkan Istirahat Dulu sekitar ${timers}*\n*Untuk bisa melanjutkan Berburu*`, '© ZeusBotz', 'Kandang', '.kandang')
 }
 handler.help = ['berburu']
 handler.tags = ['rpg']
