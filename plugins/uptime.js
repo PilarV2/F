@@ -1,7 +1,7 @@
 let handler  = async (m, { conn, usedPrefix }) => { 
   let _uptime = process.uptime() * 1000
   let uptime = clockString(_uptime) 
-  await conn.fakeReply(m.chat, '*TUNGGU SEBENTAR*', '0@s.whatsapp.net', `*NEKOHIME SAN NYAA*`)
+  await conn.fakeReply(m.chat, '*TUNGGU SEBENTAR*', '0@s.whatsapp.net', `*ZeusBotz*`)
   conn.reply(m.chat, `
   Uptime: *${uptime}*
 `.trim(), m)
