@@ -28,7 +28,7 @@ let handler = async (m, { conn, usedPrefix }) => {
         .setDiscriminator(discriminator)
       rank.build()
         .then(async data => {
-          await conn.sendButtonImg(m.chat, data, `Level *${user.level} (${user.exp - min}/${xp})*\nKurang *${max - user.exp}* lagi!`.trim(), '© Nekohime', '☰ MENU', '.menu', m, { thumbnail: data, height: 282, width: 934 })
+          await conn.sendButtonImg(m.chat, data, `Level *${user.level} (${user.exp - min}/${xp})*\nKurang *${max - user.exp}* lagi!`.trim(), '© ZeusBotz', '☰ MENU', '.menu', m, { thumbnail: data, height: 282, width: 934 })
         })
     }
     let before = user.level * 1
@@ -48,7 +48,7 @@ let handler = async (m, { conn, usedPrefix }) => {
         .setDiscriminator(discriminator)
       rank.build()
         .then(async data => {
-          await await this.sendButtonImg(m.chat, data, `*「 LEVEL UP 」*\n➸ *Nama :* *${name.vnmae || name.notify || name.name || '+' + name.jid.split`@`[0]}*\n➸ *Xp :* *_${before}_ -> _${user.level}_*\n➸ *Level :* *${level}*🆙\n➸ *Role*: *${role}*\n\nCongrats!! 🎉🎉`.trim(), '© Nekohime', 'Daily', '.claim', m, { thumbnail: data, height: 282, width: 934 })
+          await await this.sendButtonImg(m.chat, data, `*「 LEVEL UP 」*\n➸ *Nama :* *${name.vnmae || name.notify || name.name || '+' + name.jid.split`@`[0]}*\n➸ *Xp :* *_${before}_ -> _${user.level}_*\n➸ *Level :* *${level}*🆙\n➸ *Role*: *${role}*\n\nCongrats!! 🎉🎉`.trim(), '© ZeusBotz', 'Daily', '.claim', m, { thumbnail: data, height: 282, width: 934 })
         })
     }
   }
