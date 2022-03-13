@@ -94,7 +94,7 @@ const defaultMenu = {
 ┌─❖「 *INFO BOT* 」
 │ Nama Bot: *%me*
 │ Versi: %version
-│ Fitur Bot: *469* Fitur
+│ 
 │ Pengguna: %totalreg
 │ Grup: *${groups.length}*
 │ Telah Daftar: %rtotalreg
@@ -112,6 +112,8 @@ const defaultMenu = {
 ┌─❖「 *STATUS BOT* 」
 │ Uptime: *%uptime (%muptime)*
 │ OS: *${OS}*
+│ Memory Used : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
+│ Mode: *${global.opts['self'] ? 'Private' : 'Publik'}*
 │ Battery: ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
 │ Prefix:『> %p <』
 │ Web: *${global.web}*
