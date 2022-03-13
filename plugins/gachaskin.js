@@ -16,7 +16,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
                                 global.DATABASE._data.users[m.sender].coin += coin * count
                                 global.DATABASE._data.users[m.sender].money += uang * count
                                 m.reply('Selamat Anda Mendapatkan\nCoin: ${coin * count}\nUang: ${uang * count}')
-                            } else conn.sendButton(m.chat, `Minimal ${staminaojek} Stamina 💊 baru bisa kerja jadi ojek`, '© Nekohime', 'Tambah Stamina', '.staminaheal', m)
+                            } else conn.sendButton(m.chat, `Minimal ${staminaojek} Stamina 💊 baru bisa kerja jadi ojek`, '© ZeusBotz', 'Tambah Stamina', '.staminaheal', m)
                         break
                 default:
                     return conn.reply(m.chat, Kchat, m)
