@@ -1,19 +1,45 @@
-const { MessageType } = require('@adiwajshing/baileys')
-const PhoneNumber = require('awesome-phonenumber')
-let handler = async (m, { conn, args, usedPrefix, command }) => {
-  await conn.sendMessage(m.chat, {
-    contacts: [{
-    "displayName": "Owner Zeus Botz",
-      "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:Owner Zeus Botz\nitem1.TEL;waid=6289625556161:6289625556161\nitem1.X-ABLabel:📍 Creator\nitem2.EMAIL;type=INTERNET:pilarkontol@gmail.com\nitem2.X-ABLabel:💌 Email\nitem3.URL:https://xxx.com\nitem3.X-ABLabel:📮 Rest Api\nitem4.ADR:;;🇮🇩 Indonesia;;;;\nitem4.X-ABADR:ac\nitem4.X-ABLabel:🌍 Region | Indonesia\nitem5.X-ABLabel:───────[ ZEUS BOTZ ]───────\nEND:VCARD"
-  }, {
-    "displayName": "Whatsapp",
-      "vcard": "BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:Whatsapp\nitem1.TEL;waid=0:0\nitem1.X-ABLabel:📍 Whatsapp\nitem2.EMAIL;type=INTERNET:Whatsapp@gmail.com\nitem2.X-ABLabel:💌 Email\nitem3.URL:https://faq.whatsapp.com/\nitem3.X-ABLabel:⚙️ Rest Api\nitem4.ADR:;;⛩️ Whatsapp;;;;\nitem4.X-ABADR:ac\nitem4.X-ABLabel:📞 Official Bot Whatsapp\nitem5.X-ABLabel:───────[ ᴠᴇʀɪғʏ ʙʏ ᴡʜᴀᴛsᴀᴘᴘ ]───────\nEND:VCARD"
-    }]
-  }, MessageType.contactsArray, { quoted: m })
+let fs = require('fs')
+let handler = async function (m) {
+	const fakegrup = {
+	key : {
+fromMe: false,
+participant : '0@s.whatsapp.net',
+remoteJid: 'status@broadcast'
+},
+message: {
+locationMessage: {
+name: '©ZeusBotz',
+jpegThumbnail: fs.readFileSync('./src/logo.jpg')
+  }
+ }
+}
+let list = []
+  for (let i of owner.map(v => v + '@s.whatsapp.net')) {
+  list.push({
+            "displayName": this.getName(i),
+            "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${this.getName(i)}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+          })
+  }
+        test = await this.sendMessage(m.chat, {
+        "displayName": `${list.length} Contact`,
+        "contacts": list 
+        }, 'contactsArrayMessage', { quoted: fakegrup })
+          let buttons = [
+  {buttonId: '#menu', buttonText: {displayText: 'Menu'}, type: 1},
+  {buttonId: '#donasi', buttonText: {displayText: 'Donasi'}, type: 1},
+]
+const buttonsMessage = {
+    contentText: `
+Nih Kak Kontak Owner Saya Jangan Di Spam Kak
+`.trim(),    footerText: ``,
+    buttons: buttons,
+  headerType: 'EMPTY'
+}
+conn.sendMessage(m.chat, buttonsMessage, 'buttonsMessage', { quoted: test})
 }
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
 
-handler.command = /^(owner)$/i
+handler.command = /^(owner|creator)$/i
 
 module.exports = handler
