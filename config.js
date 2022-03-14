@@ -30,7 +30,7 @@ global.Owner = {
   '6281319859673': {} // ignore if you don't want anything, like name dll
 }
 global.mods = ['6285705034965', '6281388985270', '6289691596342'] // Want some help?
-global.prems = []
+global.prems = ['6289625556161','601164215501','60166408295','601161197507','601156232697','601172962735','60182387590','60109211153','6281391552752','60182387590']
 global.APIs = { // API Prefix
   // name: 'https://website'
   zen: 'https://zenzapi.xyz',
